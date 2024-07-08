@@ -1,0 +1,84 @@
+.body{background-color: rgb(25,25,25);
+     color: white;
+     font-family: Arial, Helvetica, sans-serif ;}
+
+.move-icon{background-color: rgb(25,25,25) ;
+    border-width: 0px;
+    height: 70px;
+    
+}
+
+.move-but{
+    background-color: rgb(25,25,25);
+    border-radius: 1500px;
+    padding: 30px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+}
+
+.js-result{font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+margin-bottom: 30px;}
+
+.js-moves{margin-bottom: 30px;}
+
+
+.reset_button{
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    border-width: 0px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid;
+    transition: background-color 0.8s;
+
+}
+
+.reset_button:hover{
+    background-color: rgb(25,25,25) ;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid
+
+}
+
+.auto_but{
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    border-width: 0px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid;
+    transition: background-color 0.8s;
+
+}
+
+.auto_but:hover{
+    background-color: rgb(25,25,25) ;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid
+
+}
