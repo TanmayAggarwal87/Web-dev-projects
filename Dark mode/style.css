@@ -1,0 +1,61 @@
+:root{
+    --primary-color: white;
+    --primary-label: black;
+    --secondary-color: black;
+    --secondary-label: white; 
+
+
+}
+
+body{
+    background: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#switch{
+    height: 0px;
+    width: 0px;
+    visibility: hidden  ;
+}
+
+label{
+    display: block;
+    height: 50px;
+    width: 100px;
+    background: var(--primary-label);
+    position: relative;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+label:after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.5s;
+    }
+
+#switch:checked +label:after{
+    background-color: var(--secondary-color);
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    
+
+}
+#switch:checked +label{
+    background-color: var(--primary-color);}
+
+
+label:active:after{
+    width: 40px;
+    
+    
+}
