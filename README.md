@@ -3,7 +3,7 @@
 Welcome to my collection of basic web development projects! This repository showcases the fundamental projects I created as part of my journey to learn HTML, CSS, and JavaScript. Each project demonstrates key concepts and practices in web development, serving as a foundation for my skills.
 
 ## Projects Included
-
+- **Amazon UI Clone:An Amazon UI clone that allows users to add items to a cart and simulate placing an order. This project focuses on UI design and interaction.
 - **Calculator**: A simple calculator that performs basic arithmetic operations.
 - **Background Hover Transition**: A demonstration of CSS transitions to create smooth background changes on hover.
 - **Dark Mode Toggle Button**: A toggle button that switches the website theme between light and dark modes.
